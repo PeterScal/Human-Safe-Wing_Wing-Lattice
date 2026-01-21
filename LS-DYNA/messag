@@ -1,0 +1,161 @@
+
+
+ ***************************************************************
+ *            ANSYS LEGAL NOTICES                              *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2025 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+      Date: 01/19/2026      Time: 14:30:52  
+      ___________________________________________________ 
+     |                                                   |
+     |  LS-DYNA, A Program for Nonlinear Dynamic         |
+     |  Analysis of Structures in Three Dimensions       |
+     |  Date    : 07/09/2025    Time: 09:53:35           |
+     |  Version : smp d R16                              |
+     |  Revision: R16.1-180-gd50332dbe5                  |
+     |  AnLicVer: 2025 R2 (20250506+dl-73-g4dde854)      |
+     |                                                   |
+     |  Features enabled in this version:                |
+     |    Shared Memory Parallel                         |
+     |    CESE CHEMISTRY EM ICFD STOCHASTIC_PARTICLES    |
+     |    FFTW (multi-dimensional FFTW Library)          |
+     |    ARPACK (nonsymmetric eigensolver library)      |
+     |    ANSYSLIC enabled                               |
+     |  Issued by  : ANSYS                               |
+     |                                                   |
+     |  Platform   : WINDOWS X64                         |
+     |  OS Level   : Windows 10  (Build 26100) uam       |
+     |  Compiler   : Intel Fortran Compiler 19.0 SSE2    |
+     |  Hostname   : LegionPete                          |
+     |  Precision  : Double precision (I8R8)             |
+     |                                                   |
+     |  Unauthorized use infringes Ansys Inc. copyrights |
+     |___________________________________________________|
+
+
+ Command line options: i=D:\Modified_Wing\LS-DYNA\WingLattice_System.k 
+                       ncpu=4 
+                       memory=34m
+
+ Input file: D:\Modified_Wing\LS-DYNA\WingLattice_System.k                                   
+
+ The native file format       : 64-bit small endian
+ Memory size from command line:    34000000
+ allocating  memory to    34000000 d     1984109 Initial allocation
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LST nor the authors assume any responsibility for  *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LST endeavors to make the LS-DYNA code as complete,        *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LST through your site focus.                *
+ *                                                            *
+ * Copyright (C) 1990-2021                                    *
+ * by Livermore Software Technology, LLC                      *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   01/19/26 14:30:52
+ expanding   memory to      250662 d     6776236  
+ expanding   memory to      280662 d     6776236  
+ expanding   memory to      300898 d     6836236  
+ expanding   memory to      323692 d     6836236  
+ expanding   memory to      396330 d     8684532  
+ expanding   memory to      423032 d     8687452  
+
+                                                               01/19/26 14:30:52
+ Open include file: adult_head_solid_single_spring_3 (2).k
+ expanding   memory to      450915 d     8687452  
+
+                                                               01/19/26 14:30:52
+ Open include file: compression_spring_25_100_solid.k
+
+                                                               01/19/26 14:30:52
+ Open include file: WingLattice_v2.k
+
+                                                               01/19/26 14:30:52
+ Open include file: UAVBody_L.k
+
+                                                               01/19/26 14:30:52
+ Open include file: D:\Modified_Wing\LS-DYNA\WIng_FoamHalf.k
+ expanding   memory to      543127 d    10786392  
+ expanding   memory to      633559 d    14893314  
+ expanding   memory to      656059 d    14893314  
+ expanding   memory to      678077 d    15211926  
+ expanding   memory to      920536 d    15211926  
+ expanding   memory to     1148698 d    15211926  
+
+ Memory required to process keyword     :    1148698  
+ Additional dynamic memory required     :   15218038  
+
+ contracting memory to           1 d    10786481 end of keyword reader
+
+ LS-DYNA will perform a structural only analysis 
+
+ D:\Modified_Wing\LS-DYNA\Wing_FoamHalf.k                                
+                    ls-dyna smp d R16 R16.1_180_d50332d date 07/09/2025
+ 
+ *** Warning 20006 (STR+6)
+     reset D3PLOT output interval from 0. to 0.0000E+00
+ expanding   memory to        2001 d     1987926 material, node and element data
+ expanding   memory to        2075 d     1988067 material properties
+ expanding   memory to        2177 d    11106703 gradient of damage data
+ expanding   memory to        2198 d    14619793 user control for contact interfaces
+ contracting memory to        2178 d    14619801 thermal expansion 0
+ expanding   memory to        2180 d    14619809 cross-sectional force definitions 0
+ expanding   memory to       92612 d    14619929 temp index array for node sorting
+ contracting memory to        2180 d    14710365 just because?
+ 
+ *** Error 70043 (OTH+43)
+     Number of elements( 228162) exceeds limit 128000
