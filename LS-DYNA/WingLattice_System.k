@@ -1,6 +1,12 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) 2025 R1 (v4.12.6) - 14May2025
-$# Created on Jan-19-2026 (14:17:15)
+$# Created on Jan-23-2026 (21:55:08)
 *KEYWORD
+*CONTROL_TERMINATION
+$#  endtim    endcyc     dtmin    endeng    endmas     nosol
+      10.0         0       0.0       0.01.000000E8         0
+*DATABASE_BINARY_D3PLOT
+$#      dt      lcdt      beam     npltc    psetid
+       0.1         0         0         0         0
 *BOUNDARY_SPC_SET_ID
 $#      id                                                               heading
          0Lattice Node Set DOF
