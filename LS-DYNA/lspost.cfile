@@ -1,5 +1,19 @@
 $# LS-PrePost command file created by LS-PrePost(R) 2025 R1 (v4.12.6) - 14May2025 -64bit-Window
-$# Created on Jan-25-2026 (14:57:06)
+$# Created on Feb-8-2026 (14:51:41)
 openc keyword "D:\Modified_Wing\LS-DYNA\WingLattice_System.k"
 Message 1
 Message 0
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+selectentity getalllabel
+selectentity getalllabel
+selectentity getalllabel
+inipene contactoff
+selectentity getalllabel
+genselect clear
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save outversion 10
+save keyword specialsubsystem "D:\Modified_Wing\LS-DYNA\WingLattice_System.k" 1

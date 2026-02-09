@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) 2025 R1 (v4.12.6) - 14May2025
-$# Created on Jan-23-2026 (21:55:08)
+$# Created on Feb-8-2026 (14:51:56)
 *KEYWORD
 *CONTROL_TERMINATION
 $#  endtim    endcyc     dtmin    endeng    endmas     nosol
@@ -49,11 +49,11 @@ $#                                                                      filename
 adult_head_solid_single_spring_3 (2).k
 *INCLUDE
 $#                                                                      filename
-WingLattice_v2.k
+UAVBody_L.k
 *INCLUDE
 $#                                                                      filename
-UAVBody_L.k
+WIng_FoamHalf.k
 *INCLUDE_AUTO_OFFSET
 $#                                                                      filename
-D:\Modified_Wing\LS-DYNA\WIng_FoamHalf.k
+D:\Modified_Wing\LS-DYNA\WingLattice_v2.k
 *END

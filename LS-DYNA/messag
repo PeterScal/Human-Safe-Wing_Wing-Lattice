@@ -47,7 +47,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 01/25/2026      Time: 14:56:58  
+      Date: 02/08/2026      Time: 14:52:08  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -75,15 +75,15 @@
      |___________________________________________________|
 
 
- Command line options: i=D:\Modified_Wing\LS-DYNA\WingLattice_v2.k 
+ Command line options: i=D:\Modified_Wing\LS-DYNA\WingLattice_System.k 
                        ncpu=4 
-                       memory=200m
+                       memory=20m
 
- Input file: D:\Modified_Wing\LS-DYNA\WingLattice_v2.k                                       
+ Input file: D:\Modified_Wing\LS-DYNA\WingLattice_System.k                                   
 
  The native file format       : 64-bit small endian
- Memory size from command line:   200000000
- allocating  memory to   200000000 d     1984109 Initial allocation
+ Memory size from command line:    20000000
+ allocating  memory to    20000000 d     1984109 Initial allocation
 
  ********  notice  ********  notice  ********  notice  ********
  *                                                            *
@@ -106,108 +106,2139 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   01/25/26 14:56:58
- expanding   memory to       66454 d     2935394  
- expanding   memory to       96454 d     2935394  
- expanding   memory to      117858 d     2995394  
- expanding   memory to      146380 d     3355026  
- expanding   memory to      208380 d     3370026  
- expanding   memory to      234268 d     3771298  
- expanding   memory to      293641 d     4621842  
- expanding   memory to      337595 d     4621842  
+ Beginning of keyword reader                                   02/08/26 14:52:08
+ expanding   memory to       85285 d     3406596  
+ expanding   memory to      115285 d     3406596  
+ expanding   memory to      135521 d     3466596  
+ expanding   memory to      158315 d     3466596  
+ expanding   memory to      230953 d     3991876  
+ expanding   memory to      254519 d     3994012  
 
- Memory required to process keyword     :     337595  
- Additional dynamic memory required     :    4621907  
+                                                               02/08/26 14:52:08
+ Open include file: adult_head_solid_single_spring_3 (2).k
+ expanding   memory to      282402 d     3994012  
 
- contracting memory to           1 d     3771363 end of keyword reader
+                                                               02/08/26 14:52:08
+ Open include file: compression_spring_25_100_solid.k
 
- LS-DYNA will perform a structural only analysis 
+                                                               02/08/26 14:52:08
+ Open include file: UAVBody_L.k
 
- D:\Modified_Wing\LS-DYNA\WingLattice_v2.k                               
-                    ls-dyna smp d R16 R16.1_180_d50332d date 07/09/2025
+                                                               02/08/26 14:52:08
+ Open include file: WIng_FoamHalf.k
+
+                                                               02/08/26 14:52:09
+ Open include file: D:\Modified_Wing\LS-DYNA\WingLattice_v2.k
+ expanding   memory to      318492 d     4601570  
+ expanding   memory to      352802 d     5731706  
+ expanding   memory to      375302 d     5731706  
  
- *** Warning 20006 (STR+6)
-     reset D3PLOT output interval from 0. to 0.0000E+00
- expanding   memory to        2001 d     1984798 material, node and element data
- expanding   memory to        2071 d     1984813 material properties
- expanding   memory to        2085 d     3578676 gradient of damage data
- expanding   memory to        2106 d     4209479 user control for contact interfaces
- contracting memory to        2086 d     4209480 thermal expansion 0
- expanding   memory to        2088 d     4209481 cross-sectional force definitions 0
- expanding   memory to       17506 d     4209496 temp index array for node sorting
- contracting memory to        2088 d     4224918 just because?
- expanding   memory to      133950 d     4255767 nodal data
- expanding   memory to      177904 d     4255767 arbitrary element numbering input
- contracting memory to        2094 d     5066763 user_define_loading_set
- expanding   memory to        2095 d     5066763 load curve regularization
- expanding   memory to        2099 d     5066763 *DEFINE_ELEMENT_DEATH
- expanding   memory to       33935 d     5374687 implicit contact 1
- contracting memory to        3099 d     5376396 contact segment data 1
- expanding   memory to      400985 d     5376396 contact segment data 3
- contracting memory to        2099 d     5701792 contact definition
- expanding   memory to        2103 d     5702336 contact friction
- expanding   memory to        2203 d     5702951 rigid bodies for disp. termination
- expanding   memory to        2326 d     5268346 save d3plot control data
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7331
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7332
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7334
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7337
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7338
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7352
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7660
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7666
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7672
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7679
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7681
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7684
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7687
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7695
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7697
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 7700
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 8984
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9309
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9325
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9350
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9487
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9540
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9603
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9622
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9671
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9712
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9731
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9759
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9783
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9796
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9880
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9882
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9885
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9888
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9908
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9914
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9916
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9929
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9957
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9994
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 9999
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 10021
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 10028
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 10031
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 1 contains node ID 10040
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 3693
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 3694
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 3695
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 3696
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 3697
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 3698
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 3700
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 3701
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4185
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4186
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4192
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4198
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4205
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4210
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4211
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4241
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4256
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4257
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4267
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4268
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4271
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4273
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4292
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4318
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4325
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4369
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4382
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4395
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4652
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4728
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4809
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4825
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4848
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4864
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 4934
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5005
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5118
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5297
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5381
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5390
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5427
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5445
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5449
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5453
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5472
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5480
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5486
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5488
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5489
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5491
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5493
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5495
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5496
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5505
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5517
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5523
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5554
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5557
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5558
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5559
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5560
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5561
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5562
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5563
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5593
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5615
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5617
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5619
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5620
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5622
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5623
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5624
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5625
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5685
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5696
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5698
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5705
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5712
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5713
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5754
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5756
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5757
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5759
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5760
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5802
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5803
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5817
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5818
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5829
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5830
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5832
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5833
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5835
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5837
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5838
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5839
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5841
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5844
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5849
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5851
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5852
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5858
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5864
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5865
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5881
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5882
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5883
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5884
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5885
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5887
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5888
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5890
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5923
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5924
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5925
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5945
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5946
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5948
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5956
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5957
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5958
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5959
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5961
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5962
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5964
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 5965
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6006
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6007
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6009
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6010
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6011
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6012
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6047
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6048
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6051
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6053
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6071
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6080
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6081
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6082
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6083
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6084
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6085
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6086
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6087
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6088
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6089
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6090
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6092
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6093
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6094
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6095
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6096
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6137
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6185
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6186
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6187
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6189
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6190
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6220
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6221
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6223
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6226
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6243
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6267
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6268
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6269
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6272
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6273
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6274
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6275
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6276
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6277
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6278
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6279
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6280
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6282
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6285
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6286
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6287
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6288
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6290
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6292
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6293
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6317
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6320
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6322
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6324
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6333
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6335
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6336
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6338
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6339
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6341
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6342
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6346
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6347
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6348
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6358
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6360
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6362
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6363
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6366
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6391
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6393
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6395
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6396
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6397
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6398
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6412
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6437
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6439
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6440
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6442
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6443
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6444
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6445
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6447
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6483
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6484
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6510
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6512
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6513
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6518
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6519
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6520
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6521
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6571
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6572
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6573
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6574
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6585
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6587
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6589
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6590
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6593
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6594
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6595
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6597
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6598
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6599
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6644
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6664
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6665
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6666
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6667
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6668
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6669
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6670
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6671
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6673
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6674
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6702
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6713
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6748
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6749
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6750
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6751
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6752
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6753
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6754
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6756
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6757
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6758
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6759
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6761
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6763
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6764
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6776
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6819
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6822
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6835
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6836
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6837
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6838
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6839
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6841
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6843
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6905
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6907
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6908
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6909
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6911
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6912
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6914
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6916
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6918
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6919
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6922
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6923
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6925
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6975
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6976
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6977
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6994
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6995
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6996
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6997
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6998
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 6999
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7000
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7001
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7002
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7003
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7004
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7005
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7006
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7013
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7064
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7066
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7067
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7070
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7098
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7102
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7103
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7105
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7110
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7298
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7584
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7603
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7758
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7760
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7761
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7765
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7768
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7796
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7797
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7799
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7839
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7852
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7853
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7854
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7856
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7857
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7858
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7887
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7898
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 7899
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8241
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8387
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8607
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8622
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8626
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8631
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8637
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8640
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8641
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8642
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8683
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8705
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8706
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8736
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8745
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8788
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8814
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8867
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8871
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8920
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8930
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8957
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8964
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8970
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 8977
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9021
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9022
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9056
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9070
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9095
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9115
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9140
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9141
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9151
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9157
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9159
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9204
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9292
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9301
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9315
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9319
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9343
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9344
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9357
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9374
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9378
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9387
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9428
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9429
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9433
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9456
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9512
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9523
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9536
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9548
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9549
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9558
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9566
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9578
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9608
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9616
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9617
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9662
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9667
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9680
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9701
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9709
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9715
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9723
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9725
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9770
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9787
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9805
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9806
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9809
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9812
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9825
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9827
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9830
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9832
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9854
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9864
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9894
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9905
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9920
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9927
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9940
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9946
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9956
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9963
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9971
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9972
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9976
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9987
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9991
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 9997
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10005
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10008
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10011
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10016
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10024
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10037
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10054
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10056
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10057
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10060
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10061
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10068
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10073
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10077
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10079
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10081
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10082
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10085
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10086
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10091
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10095
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10096
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10100
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10101
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10105
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10106
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10107
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10112
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10113
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10115
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10116
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10117
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10119
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10124
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10128
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10131
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10133
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10135
+     which is undefined under *NODE input.
+ 
+ *** Error 10233 (KEY+233)
+     Set ID 2 contains node ID 10144
+     which is undefined under *NODE input.
+ expanding   memory to      444666 d     5828819  
+ expanding   memory to      507451 d     5828819  
+ 
+ *** Error 10133 (KEY+133)
+     keyword input phase failed with: 518 errors
 
- initial kinetic energy = 0.00000000E+00
+ E r r o r   t e r m i n a t i o n                             02/08/26 14:52:09
 
  S t o r a g e   a l l o c a t i o n   
 
- Memory required to begin solution      :     401K
- Additional dynamically allocated memory:    6215K
-                                   Total:    6616K
-       1 t 0.0000E+00 dt 4.87E-07 flush i/o buffers            01/25/26 14:56:58
-       1 t 0.0000E+00 dt 4.87E-07 write d3plot file            01/25/26 14:56:58
- 
- *** termination time reached ***
-       1 t 4.8706E-07 dt 4.87E-07 write d3dump01 file          01/25/26 14:56:58
-       1 t 4.8706E-07 dt 4.87E-07 write d3plot file            01/25/26 14:56:58
-
- N o r m a l    t e r m i n a t i o n                          01/25/26 14:56:58
-
- S t o r a g e   a l l o c a t i o n   
-
- Memory required to complete solution   :     401K
- Additional dynamically allocated memory:    6215K
-                                   Total:    6616K
+ Memory required to complete solution   :     508K
+ Additional dynamically allocated memory:    5831K
+                                   Total:    6338K
 
  T i m i n g   i n f o r m a t i o n
                         CPU(seconds)   %CPU  Clock(seconds) %Clock
   ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     1.6300E-01    9.43
-    KW Reading ......... 0.0000E+00    0.00     7.3000E-02    4.22
-    KW Writing ......... 0.0000E+00    0.00     1.5000E-02    0.87
-  Initialization ....... 2.0000E+00  100.00     1.5100E+00   87.33
-    Init Proc Phase 1 .. 0.0000E+00    0.00     1.0700E-01    6.19
-    Init Proc Phase 2 .. 1.0000E+00   50.00     2.3000E-02    1.33
-  Init solver .......... 0.0000E+00    0.00     2.0000E-03    0.12
-  Element processing ... 0.0000E+00    0.00     1.5000E-02    0.87
-    Solids ............. 0.0000E+00    0.00     9.0000E-03    0.52
-    E Other ............ 0.0000E+00    0.00     3.0000E-03    0.17
-  Binary databases ..... 0.0000E+00    0.00     1.0000E-03    0.06
-  ASCII database ....... 0.0000E+00    0.00     4.0000E-03    0.23
-  Rigid Bodies ......... 0.0000E+00    0.00     1.0000E-03    0.06
-    Mass Scaling ....... 0.0000E+00    0.00     1.0000E-03    0.06
-  Others ............... 0.0000E+00    0.00     3.0000E-03    0.17
-  Misc. 1 .............. 0.0000E+00    0.00     3.0000E-03    0.17
-    Force Constraints .. 0.0000E+00    0.00     1.0000E-03    0.06
-  Misc. 3 .............. 0.0000E+00    0.00     2.6000E-02    1.50
-  Misc. 4 .............. 0.0000E+00    0.00     1.0000E-03    0.06
-    Timestep Init ...... 0.0000E+00    0.00     1.0000E-03    0.06
+  Keyword Processing ... 0.0000E+00    0.00     2.0400E-01   13.14
+    KW Reading ......... 0.0000E+00    0.00     1.0200E-01    6.57
+    KW Writing ......... 0.0000E+00    0.00     2.0000E-03    0.13
+  Initialization ....... 1.0000E+00  100.00     1.3490E+00   86.86
   ----------------------------------------------------------------
-  T o t a l s            2.0000E+00  100.00     1.7290E+00  100.00
+  T o t a l s            1.0000E+00  100.00     1.5530E+00  100.00
 
- Problem time       =    4.8706E-07
- Problem cycle      =         1
- Total CPU time     =         2 seconds (   0 hours  0 minutes  2 seconds)
+ Problem time       =    0.0000E+00
+ Problem cycle      =         0
+ Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
  CPU time per zone cycle  =          0.000 picoseconds
- Clock time per zone cycle=    1274059.241 picoseconds
+ Clock time per zone cycle=          0.000 picoseconds
 
  Number of CPU's    4
  NLQ used/max     192/  192
- Start time   01/25/2026 14:56:58  
- End time     01/25/2026 14:56:58  
- Elapsed time       0 second  for       1 cycles using  4 SMP threads
-             (      0 hour   0 minute   0 second )
+ Start time   02/08/2026 14:52:08  
+ End time     02/08/2026 14:52:09  
+ Elapsed time       1 second  for       0 cycles using  4 SMP threads
+             (      0 hour   0 minute   1 second )
 
- N o r m a l    t e r m i n a t i o n                          01/25/26 14:56:58
+ E r r o r   t e r m i n a t i o n                             02/08/26 14:52:09
